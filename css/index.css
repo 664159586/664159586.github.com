@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-10 15:04:18
+ * @version $Id$
+ */
+#list{
+	width: 250px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: left;
+	margin: 0 auto;
+}
+
+.shiyan{
+	width: 100px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: left;
+}
