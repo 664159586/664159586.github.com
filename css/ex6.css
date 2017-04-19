@@ -1,0 +1,141 @@
+.ui-box {
+    width: 600px;
+    height: 350px;
+    border:1px solid #000;
+    background: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    align-content: flex-start;
+}
+.ui-box-item {
+    margin: 10px;
+}
+.ui-box-img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.ui-img {
+    display: none;
+}
+.ui-img-show {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-150%, -80%);
+}
+
+
+
+
+#ui-box2{
+    margin-top: 50px;
+    margin: 50px;
+}
+
+#ui-box2-top{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+
+.box2-top{
+    width: 100px;
+    height: 50px;
+    border-left: 1px solid;
+    display: flex;
+}
+
+.box2-top:hover{
+    cursor: pointer;
+}
+
+#ui-box2-body{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    border: 1px solid;
+}
+
+.box2-body{
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.box2-body p{
+    display: inline;
+    color: #808080;
+}
+
+
+
+
+.ui-box3{
+    list-style: none;
+    position: absolute;
+    width: 500px;
+    height:500px;
+    border: 1px solid #000;
+    margin: 50px;
+    z-index: 3;
+    top:850px;
+}
+.ui-box3-button{
+    position: absolute;
+    width:130px;
+    height: 26px;
+    border: 1px solid #000;
+    background: #47b97f;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    top:450px;
+    left:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ui-main{
+    width:450px;
+    height: 30px;
+    border:1px solid #000;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.ui-box3-num{
+    width:40px;
+    height:30px;
+    border-right:1px solid #000;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+}
+.ui-box3-mid{
+    width:470px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.ui-box3-del{
+    width:90px;
+    height:30px;
+    border-left:1px solid #000;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    float: right;
+}
