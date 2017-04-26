@@ -1,0 +1,388 @@
+.ui-box-top{
+	width: 690px;
+	height: 25px;
+	display: flex;
+	border-bottom: 2px solid #1B88C4;
+}
+.ui-box-top1{
+	width: 80px;
+	height: 25px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+	line-height: 25px;
+	color: #ffffff;
+	font-size: 13px;
+	font-family: "宋体";
+	font-weight: bold;
+	background:linear-gradient(to bottom,#2F94CE,#1B88C4);
+}
+
+.ui-box-top2{
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: "宋体";
+	text-align: center;
+	line-height: 22px;
+	background:linear-gradient(to bottom,#FC7D18,#FF4002);
+}
+.ui-box-part2{
+	width: 690px;
+	height: 50px;
+	border-left: 1px solid #CBCBCB;
+	border-right: 1px solid #CBCBCB;
+	border-bottom: 1px solid #CBCBCB;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	background:linear-gradient(to bottom,#FFFFFF,#F2F3F3);
+}
+
+.ui-part2-time{
+	display: flex;
+	color: #D50008;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-top:0px;
+}
+
+.ui-part2-sum{
+	display: flex;
+	font-size: 15px;
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.ui-part2-money{
+	display: flex;
+	color: #D50008;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left:5px;
+	margin-top:0px;
+}
+
+.ui-part2-empty{
+	width: 400px;
+	height: 5px;
+}
+
+.ui-part2-time1{
+	display: flex;
+	font-size: 15px;
+	margin-top:-10px;
+	margin-left: 5px;
+
+}
+
+.ui-part2-time2{
+	display: flex;
+	color: #D50008;
+	font-size: 15px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top:-10px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.ui-part2-time3{
+	display: flex;
+	font-size: 15px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top:-10px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.ui-box-part3{
+	width: 690px;
+	height: 25px;
+	border-left: 1px solid #CBCBCB;
+	border-right: 1px solid #CBCBCB;
+	border-bottom: 1px solid #CBCBCB;
+	display: flex;
+	flex-direction: row-reverse;
+	box-sizing: border-box;
+	background-color: rgb(255,251,222);
+}
+
+.ui-text-print{
+	margin-right: 10px;
+	font-family: "黑体";
+	font-size: 15px;
+}
+
+
+.ui-text-print{
+	margin-right: 10px;
+	font-family: "黑体";
+	font-size: 15px;
+}
+
+.ui-box-part4{
+	width: 690px;
+	height: 15px;
+	margin-top: 5px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	display: flex;
+	color: #666666;
+	font-size: 13px;
+	line-height: 14px;
+}
+
+.ui-part4-road{
+	width:405px;
+	height: 15px;
+	background-color: #CEDCE8;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+}
+
+.ui-part4-place{
+	width: 65px;
+	height: 15px;
+	background-color: #CEDCE8;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+}
+
+.ui-part4-fee{
+	width: 70px;
+	height: 15px;
+	background-color: #CEDCE8;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+}
+
+.ui-part4-fee1{
+	width: 80px;
+	height: 15px;
+	background-color: #CEDCE8;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+}
+
+.ui-part4-dis{
+	width: 65px;
+	height: 15px;
+	background-color: #CEDCE8;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+}
+
+
+
+.ui-box-part5{
+	width: 690px;
+	height: 40px;
+	background-color: #F2F2F2;
+	border-left: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+	box-sizing: border-box;
+	display: flex;
+	line-height: 40px;
+}
+
+.ui-part5-headtime{
+	width: 90px;
+	height: 40px;
+	text-align: center;
+}
+
+.ui-part5-headc{
+	width: 90px;
+	height: 40px; 
+	text-align: right;
+	margin-right: 10px;
+}
+
+.ui-part5-sign{
+	width: 20px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.ui-sign-on{
+	margin-left: -5px;
+	width: 13px;
+	height: 13px;
+	border:1px solid #FFFFFF;
+	background: linear-gradient(to bottom,#4AB9E6,#26A0D9,#4AB9E6);
+}
+
+.ui-sign-off{
+	margin-left: 5px;
+	width: 8px;
+	height: 8px;
+	border:2px solid;
+	border-image:linear-gradient(#4AB9E6,#26A0D9) 2 2;
+	background: #FFFFFF;
+}
+
+.ui-part5-road{
+	width: 290px;
+	height: 40px;
+	font-weight: bold;
+}
+
+.ui-part5-place{
+	width: 65px;
+	height: 40px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.ui-place-p{
+	line-height: 0;
+}
+
+.ui-part5-sum{
+	width: 220px;
+	height: 40px;
+	display: flex;
+	font-size: 13px;
+	flex-direction: row-reverse;
+}
+
+.ui-sum-a{
+	margin-left: 5px;
+}
+
+.ui-sum-a-last{
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+
+
+
+
+.ui-box-box1{
+	width: 690px;
+	height: 40px;
+	display: flex;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #C0C0C0;
+	box-sizing: border-box;
+}
+
+.ui-box1-head{
+	width: 100px;
+	height: 40px;
+	line-height:0;
+	text-align: center;
+	margin-top: -5px
+}
+
+.ui-box1-up1{
+	font-weight: bold;
+}
+
+.ui-box1-stripe{
+	width: 6px;
+	height: 40px;
+	padding: 2px;
+	background-color:#96C7D8;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.ui-box1-substripe{
+	width: 4px;
+	height: 37px;
+	padding: .01em;
+	line-height: 1.5;
+	background: #ffffff;
+	background-size: auto 1em;
+	background-origin: border-box;
+	background-image: linear-gradient(rgba(150,199,216,1) 50%,transparent 0);
+}
+
+.ui-box1-textup{
+	width: 300px;
+	height: 40px;
+	border-right: 1px solid #C0C0C0;
+	box-sizing: border-box;
+	line-height: 38px;
+	padding-left: 10px;
+	color: #1E8FDC;
+	
+}
+
+
+
+.ui-textup-p{
+	display: inline;
+	font-weight: bold;
+	font-size: 15px;
+	background:-webkit-linear-gradient(#48B4FB,#1E8FDC);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.ui-textdown-p{
+	display: inline;
+	font-weight: bold;
+	font-size: 15px;
+	background:-webkit-linear-gradient(#6AC264,#007E54);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.ui-text-a{
+	font-size: 14px;
+}
+
+.ui-box1-textdown{
+	width: 300px;
+	height: 40px;
+	border-right: 1px solid #C0C0C0;
+	box-sizing: border-box;
+	line-height: 38px;
+	padding-left: 10px;
+	color: #6AC264;
+}
+
+
+
+.ui-box1-place{
+	width: 65px;
+	height: 40px;
+	border-right: 1px solid #C0C0C0;
+}
+
+.ui-box1-fee{
+	width: 70px;
+	height: 40px;
+	border-right: 1px solid #C0C0C0;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+
+.ui-box1-fee1{
+	width: 80px;
+	height: 40px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 40px;
+	border-right: 1px solid #C0C0C0;
+}
+
+.ui-box1-dis{
+	width: 65px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 13px;
+}
