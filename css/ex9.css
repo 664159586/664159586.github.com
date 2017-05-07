@@ -1,0 +1,18 @@
+#myMap{
+	width:930px ;
+	height: 800px;
+	float: left;
+}
+#result{
+	width: 400px;
+	height: 600px;
+	float: right;
+}
+
+#subresult{
+	width: 300px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
